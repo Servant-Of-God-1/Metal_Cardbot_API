@@ -1,1 +1,1 @@
-# masih dalam tahap pengembangan
+# still in the development stage
