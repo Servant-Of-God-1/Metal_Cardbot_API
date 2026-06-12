@@ -1,0 +1,15 @@
+[
+  {
+    "id": "info-001",
+    "name": "Teknologi AI Terbaru",
+    "Image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+    "Description": "Perkembangan artificial intelligence di tahun 2026 sangat pesat...",
+    "Url_Video": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4"
+  },
+  {
+    "id": "info-002",
+    "name": "Wisata Alam Indonesia",
+    "Image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800",
+    "Description": "Indonesia memiliki keindahan alam yang memukau...",
+    "Url_Video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+  },
