@@ -1,6 +1,5 @@
-package Metalcardbot_testmyapi_kotlin_restful_api.Controller
+package Metalcardbot_testmyapi_kotlin_restful_api.controller
 
-import Metalcardbot_testmyapi_kotlin_restful_api.model.ApiResponse
 import Metalcardbot_testmyapi_kotlin_restful_api.model.Information
 import Metalcardbot_testmyapi_kotlin_restful_api.service.InformationService
 import org.springframework.http.ResponseEntity
@@ -10,173 +9,302 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/api")
 class InformationController(private val service: InformationService) {
 
-    /**
-     * GET Full Information by ID
-     * GET /api/information/{id}
-     */
-    @GetMapping("/information/{id}")
-    fun getInformation(@PathVariable("id") id: String): ResponseEntity<ApiResponse<Information>> {
-        val response = service.getById(id)
-        return if (response.code == 200) ResponseEntity.ok(response)
-        else ResponseEntity.status(response.code).body(response)
-    }
-
-    /**
-     * LIST Information with Pagination, Category & Language Filter
-     * GET /api/information?pageSize=10&page=1&category=teknologi&language=id
-     */
     @GetMapping("/information")
     fun listInformation(
-        @RequestParam(defaultValue = "10") pageSize: Int,
-        @RequestParam(defaultValue = "1") page: Int,
+        @RequestParam(defaultValue = "20") limit: Int,
+        @RequestParam(defaultValue = "0") offset: Int,
         @RequestParam(required = false) category: String?,
-        @RequestParam(required = false) language: String?
-    ): ResponseEntity<ApiResponse<List<Information>>> {
-        if (pageSize < 1 || page < 1) {
-            return ResponseEntity.status(400).body(
-                ApiResponse(400, "BAD_REQUEST - pageSize and page must be greater than 0", null)
-            )
-        }
-        if (pageSize > 50) {
-            return ResponseEntity.status(400).body(
-                ApiResponse(400, "BAD_REQUEST - pageSize cannot exceed 50", null)
-            )
+        @RequestParam(required = false) language: String?,
+        @RequestParam(required = false) name: String?
+    ): ResponseEntity<List<Information>> {
+        if (limit < 1 || limit > 50) {
+            return ResponseEntity.status(400).body(emptyList())
         }
 
-        val response = service.getAll(pageSize, page, category, language)
-        return ResponseEntity.ok(response)
+        val page = offset / limit + 1
+        val response = service.getAll(limit, page, category, language, name)
+        val data = response.data ?: emptyList()
+        val metadata = response.metadata
+
+        return ResponseEntity.ok()
+            .header("Cache-Control", "public, max-age=300, s-maxage=3600")
+            .header("X-Total-Count", metadata?.get("totalItems").toString())
+            .body(data)
     }
 
-    /**
-     * GET Image Only
-     * GET /api/information/{id}/image
-     */
+    @GetMapping("/information/{id}")
+    fun getInformation(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Information> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok()
+                .header("Cache-Control", "public, max-age=3600, s-maxage=86400")
+                .body(response.data)
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
     @GetMapping("/information/{id}/image")
-    fun getImageOnly(@PathVariable("id") id: String): ResponseEntity<ApiResponse<Map<String, String>>> {
-        val info = service.getById(id)
-        return if (info.code == 200 && info.data != null) {
-            val imageData = mapOf(
-                "id" to info.data.id,
-                "name" to info.data.name,
-                "image" to info.data.Image,
-                "category" to info.data.category,
-                "language" to info.data.language
-            )
-            ResponseEntity.ok(ApiResponse(200, "OK", imageData))
+    fun getImageOnly(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("image" to response.data.Image))
         } else {
-            ResponseEntity.status(404).body(ApiResponse(404, "NOT_FOUND", null))
+            ResponseEntity.status(404).build()
         }
     }
 
-    /**
-     * GET Video Only
-     * GET /api/information/{id}/video
-     */
+    @GetMapping("/information/{id}/image1")
+    fun getImage1Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("image1" to response.data.Image1))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/image2")
+    fun getImage2Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("image2" to response.data.Image2))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/image3")
+    fun getImage3Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("image3" to response.data.Image3))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/image4")
+    fun getImage4Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("image4" to response.data.Image4))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
     @GetMapping("/information/{id}/video")
-    fun getVideoOnly(@PathVariable("id") id: String): ResponseEntity<ApiResponse<Map<String, String>>> {
-        val info = service.getById(id)
-        return if (info.code == 200 && info.data != null) {
-            val videoData = mapOf(
-                "id" to info.data.id,
-                "name" to info.data.name,
-                "video" to info.data.Url_Video,
-                "category" to info.data.category,
-                "language" to info.data.language
-            )
-            ResponseEntity.ok(ApiResponse(200, "OK", videoData))
+    fun getVideoOnly(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("video" to response.data.Url_Video))
         } else {
-            ResponseEntity.status(404).body(ApiResponse(404, "NOT_FOUND", null))
+            ResponseEntity.status(404).build()
         }
     }
 
-    /**
-     * GET Detail Only (Text)
-     * GET /api/information/{id}/detail
-     */
-    @GetMapping("/information/{id}/detail")
-    fun getDetailOnly(@PathVariable("id") id: String): ResponseEntity<ApiResponse<Map<String, String>>> {
-        val info = service.getById(id)
-        return if (info.code == 200 && info.data != null) {
-            val detailData = mapOf(
-                "id" to info.data.id,
-                "name" to info.data.name,
-                "description" to info.data.Description,
-                "category" to info.data.category,
-                "language" to info.data.language
-            )
-            ResponseEntity.ok(ApiResponse(200, "OK", detailData))
+    @GetMapping("/information/{id}/video1")
+    fun getVideo1Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("video1" to response.data.Url_Video1))
         } else {
-            ResponseEntity.status(404).body(ApiResponse(404, "NOT_FOUND", null))
+            ResponseEntity.status(404).build()
         }
     }
 
-    /**
-     * GET All Images by Category & Language
-     * GET /api/information/images?category=teknologi&language=id
-     */
-    @GetMapping("/information/images")
-    fun getAllImages(
-        @RequestParam(required = false) category: String?,
-        @RequestParam(required = false) language: String?
-    ): ResponseEntity<ApiResponse<List<Map<String, String>>>> {
-        val infoList = service.getAll(50, 1, category, language)
-        return if (infoList.code == 200 && infoList.data != null) {
-            val images = infoList.data.map { info ->
-                mapOf(
-                    "id" to info.id,
-                    "name" to info.name,
-                    "image" to info.Image,
-                    "category" to info.category,
-                    "language" to info.language
-                )
-            }
-            ResponseEntity.ok(ApiResponse(200, "OK", images))
+    @GetMapping("/information/{id}/video2")
+    fun getVideo2Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("video2" to response.data.Url_Video2))
         } else {
-            ResponseEntity.status(500).body(ApiResponse(500, "ERROR", null))
+            ResponseEntity.status(404).build()
         }
     }
 
-    /**
-     * GET All Videos by Category & Language
-     * GET /api/information/videos?category=teknologi&language=id
-     */
-    @GetMapping("/information/videos")
-    fun getAllVideos(
-        @RequestParam(required = false) category: String?,
-        @RequestParam(required = false) language: String?
-    ): ResponseEntity<ApiResponse<List<Map<String, String>>>> {
-        val infoList = service.getAll(50, 1, category, language)
-        return if (infoList.code == 200 && infoList.data != null) {
-            val videos = infoList.data.map { info ->
-                mapOf(
-                    "id" to info.id,
-                    "name" to info.name,
-                    "video" to info.Url_Video,
-                    "category" to info.category,
-                    "language" to info.language
-                )
-            }
-            ResponseEntity.ok(ApiResponse(200, "OK", videos))
+    @GetMapping("/information/{id}/video3")
+    fun getVideo3Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("video3" to response.data.Url_Video2))
         } else {
-            ResponseEntity.status(500).body(ApiResponse(500, "ERROR", null))
+            ResponseEntity.status(404).build()
         }
     }
 
-    /**
-     * GET All Categories
-     * GET /api/categories
-     */
+    @GetMapping("/information/{id}/video4")
+    fun getVideo4Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("video4" to response.data.Url_Video4))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/description")
+    fun getDescriptionOnly(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("description" to response.data.Description))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/description1")
+    fun getDescription1Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, Any?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("description1" to response.data.Description1))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/description2")
+    fun getDescription2Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, Any?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("description2" to response.data.Description2))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/description3")
+    fun getDescription3Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, Any?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("description3" to response.data.Description3))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/description4")
+    fun getDescription4Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, Any?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("description4" to response.data.Description4))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/caption")
+    fun getCaptionOnly(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("caption" to response.data.caption))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/caption1")
+    fun getCaption1Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("caption1" to response.data.caption1))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/caption2")
+    fun getCaption2Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("caption2" to response.data.caption2))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/caption3")
+    fun getcaption3Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("caption3" to response.data.caption3))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/caption4")
+    fun getcaption4Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("caption4" to response.data.caption4))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
     @GetMapping("/categories")
-    fun getCategories(): ResponseEntity<ApiResponse<List<Map<String, Any>>>> {
-        return ResponseEntity.ok(service.getCategories())
+    fun getCategories(): ResponseEntity<List<Map<String, Any>>> {
+        val response = service.getCategories()
+        return ResponseEntity.ok()
+            .header("Cache-Control", "public, max-age=86400")
+            .body(response.data ?: emptyList())
     }
 
-    /**
-     * GET All Languages
-     * GET /api/languages
-     */
     @GetMapping("/languages")
-    fun getLanguages(): ResponseEntity<ApiResponse<List<Map<String, Any>>>> {
-        return ResponseEntity.ok(service.getLanguages())
+    fun getLanguages(): ResponseEntity<List<Map<String, Any>>> {
+        val response = service.getLanguages()
+        return ResponseEntity.ok()
+            .header("Cache-Control", "public, max-age=86400")
+            .body(response.data ?: emptyList())
+    }
+
+    @GetMapping("/stats")
+    fun getStats(): ResponseEntity<Map<String, Any>> {
+        val response = service.getStats()
+        return ResponseEntity.ok(response.data ?: emptyMap())
     }
 }

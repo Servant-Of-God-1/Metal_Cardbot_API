@@ -1,15 +1,25 @@
 [
   {
-    "id": "info-001",
-    "name": "Teknologi AI Terbaru",
-    "Image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
-    "Description": "Perkembangan artificial intelligence di tahun 2026 sangat pesat...",
-    "Url_Video": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4"
+    "id": "People-001-en",
+    "name": "Anna",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/3/39/Anna_MC.png/revision/latest?cb=20260107225943",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/b/b2/Anna_MCS.png/revision/latest?cb=20260106235243",
+    "caption": "Anna (in MCB Season 1)",
+    "caption1": "Anna (in MCB Season 2 and 3)",
+    "Description": "Anna is the daughter of Motown's mayor, Jack. Their relationship is somewhat strained, especially after being complicated by her wanting to protect the Cardbots, and her father wanting to protect his citizens from them. She is smart and honest and often acts as the voice of reason in Jun's group.",
+    "category": "People",
+    "language": "id"
   },
   {
-    "id": "info-002",
-    "name": "Wisata Alam Indonesia",
-    "Image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800",
-    "Description": "Indonesia memiliki keindahan alam yang memukau...",
-    "Url_Video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-  },
+    "id": "People-001-id",
+    "name": "Anna",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/3/39/Anna_MC.png/revision/latest?cb=20260107225943",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/b/b2/Anna_MCS.png/revision/latest?cb=20260106235243",
+    "caption": "Anna (in MCB Season 1)",
+    "caption1": "Anna (in MCB Season 2 and 3)",
+    "Description": "Anna adalah seorang gadis dengan tinggi rata-rata, kulit cerah, rambut merah muda, dan mata biru kehijauan. Pakaian awalnya terdiri dari kemeja merah muda, dasi kupu-kupu dan rok, ikat kepala, kaus kaki putih setinggi lutut, dan sepatu hak tinggi merah muda, yang memberikan kesan tinggi padanya. Dalam Metal Cardbot S, pakaian barunya terdiri dari sweter merah muda terbuka, kemeja putih, jepit rambut biru kehijauan, celana pendek jeans, kaus kaki putih biasa, dan sepatu kets merah muda. Anna adalah putri dari walikota Motown, Jack . Hubungan mereka agak tegang, terutama setelah menjadi rumit karena keinginannya untuk melindungi Cardbots, dan keinginan ayahnya untuk melindungi warganya dari mereka. Dia cerdas dan jujur, dan sering bertindak sebagai suara akal sehat dalam kelompok Jun.",
+    "Url_Video": "https://www.youtube.com/watch?v=VIDEO_ID",
+    "category": "People",
+    "language": "en"
+  }
+]
