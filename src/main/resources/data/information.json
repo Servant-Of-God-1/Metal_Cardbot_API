@@ -8,18 +8,393 @@
     "caption1": "Anna (in MCB Season 2 and 3)",
     "Description": "Anna is the daughter of Motown's mayor, Jack. Their relationship is somewhat strained, especially after being complicated by her wanting to protect the Cardbots, and her father wanting to protect his citizens from them. She is smart and honest and often acts as the voice of reason in Jun's group.",
     "category": "People",
-    "language": "id"
+    "language": "en"
   },
   {
     "id": "People-001-id",
     "name": "Anna",
     "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/3/39/Anna_MC.png/revision/latest?cb=20260107225943",
     "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/b/b2/Anna_MCS.png/revision/latest?cb=20260106235243",
-    "caption": "Anna (in MCB Season 1)",
-    "caption1": "Anna (in MCB Season 2 and 3)",
+    "caption": "Anna (dalam MCB Season 1)",
+    "caption1": "Anna (dalam MCB Season 2 dan 3)",
     "Description": "Anna adalah seorang gadis dengan tinggi rata-rata, kulit cerah, rambut merah muda, dan mata biru kehijauan. Pakaian awalnya terdiri dari kemeja merah muda, dasi kupu-kupu dan rok, ikat kepala, kaus kaki putih setinggi lutut, dan sepatu hak tinggi merah muda, yang memberikan kesan tinggi padanya. Dalam Metal Cardbot S, pakaian barunya terdiri dari sweter merah muda terbuka, kemeja putih, jepit rambut biru kehijauan, celana pendek jeans, kaus kaki putih biasa, dan sepatu kets merah muda. Anna adalah putri dari walikota Motown, Jack . Hubungan mereka agak tegang, terutama setelah menjadi rumit karena keinginannya untuk melindungi Cardbots, dan keinginan ayahnya untuk melindungi warganya dari mereka. Dia cerdas dan jujur, dan sering bertindak sebagai suara akal sehat dalam kelompok Jun.",
-    "Url_Video": "https://www.youtube.com/watch?v=VIDEO_ID",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-002-en",
+    "name": "Barnes",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/e/ea/Barnes.png/revision/latest?cb=20250102093147",
+    "caption": "Barnes (in MCB Season 1, 2 and 3)",
+    "Description": "Barnes is character from Metal Cardbot. He is a classmate of Jun's who often causes mischief with his friend Ravi. He is fond of recalling trivia to make himself look smart. Barnes is a habitual vandal and bully, often littering any wall he comes across with graffiti, messing with others solely for his amusement, and generally being unpleasant for the sake of it, including browbeating on Ravi to maintian his power. His and Ravi's mischief sometimes gets them in Cardbot-related trouble, which Jun saves them from while managing to not reveal the secret of their existence to them for some time. After the Motown Times put out a bounty for photographic evidence of Metal Cardbots, he and Ravi make a hobby of trying to doctor fake photos.",
     "category": "People",
     "language": "en"
+  },
+  {
+    "id": "People-002-id",
+    "name": "Barnes",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/e/ea/Barnes.png/revision/latest?cb=20250102093147",
+    "caption": "Barnes (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Barnes adalah karakter dari Metal Cardbot . Dia adalah teman sekelas Jun yang sering membuat ulah bersama temannya, Ravi . Dia gemar mengingat hal-hal sepele untuk membuat dirinya terlihat pintar. Barnes adalah seorang perusak dan pengganggu yang terbiasa, sering kali mengotori dinding mana pun yang dia temui dengan grafiti, mengganggu orang lain hanya untuk kesenangannya sendiri, dan umumnya bersikap tidak menyenangkan tanpa alasan, termasuk mengintimidasi Ravi untuk mempertahankan kekuasaannya. Kenakalan dia dan Ravi terkadang membuat mereka terlibat masalah yang berhubungan dengan Cardbot, yang diselamatkan oleh Jun sambil berhasil merahasiakan keberadaan mereka untuk beberapa waktu. Setelah Motown Times mengeluarkan hadiah untuk bukti foto Metal Cardbot, dia dan Ravi menjadikan hobi mereka mencoba memanipulasi foto palsu.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-003-en",
+    "name": "Crest",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/dd/Crest.webp/revision/latest?cb=20260106235242",
+    "caption": "Crest (in MCB Season 1, 2 and 3)",
+    "Description": "Crest is a character from Metal Cardbot. In the third season Metal Cardbot W, it it revealed that Crest has a twin sister: Soleil (even though his brother is humanoid). He is extraordinarily rich thanks to his father being the CEO of a car company and his mother being a doctor of robotic engineering. They are often away on business, leaving him alone in their mansion in the care of their robot butler, Sebastian. Thanks to the resources at his disposal, he was able to nurse Wild Guardy back to health after finding his escape pod from planet Machina crash-landed on Earth, resulting in a strong bond between them. He transfers to Jun's class at Motown Elementary School from his home in Eastopolis with the ulterior motive to learn more about other Metal Cardbots and the Metal Breath. After Jun succeeds in sealing Wild Guardy, Crest transfers schools again but continues to offer Jun assistance and conduct his own investigations with matters regarding Cardbots.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-003-id",
+    "name": "Crest",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/dd/Crest.webp/revision/latest?cb=20260106235242",
+    "caption": "Crest (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Crest adalah karakter dari Metal Cardbot . Di musim ketiga Metal Cardbot W , terungkap bahwa Crest memiliki saudara kembar perempuan: Soleil (meskipun saudaranya berbentuk humanoid). Ia sangat kaya berkat ayahnya yang merupakan CEO sebuah perusahaan mobil dan ibunya yang seorang dokter teknik robotika. Mereka sering bepergian untuk urusan bisnis, meninggalkannya sendirian di rumah besar mereka di bawah pengawasan pelayan robot mereka, Sebastian . Berkat sumber daya yang dimilikinya, ia mampu merawat Wild Guardy hingga pulih setelah menemukan kapsul pelariannya dari planet Machina yang jatuh di Bumi, sehingga terjalin ikatan yang kuat di antara mereka. Ia pindah ke kelas Jun di Sekolah Dasar Motown dari rumahnya di Eastopolis dengan motif tersembunyi untuk mempelajari lebih lanjut tentang Metal Cardbot lainnya dan Metal Breath. Setelah Jun berhasil menyegel Wild Guardy, Crest pindah sekolah lagi tetapi terus menawarkan bantuan kepada Jun dan melakukan penyelidikannya sendiri terkait masalah Cardbot.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-004-en",
+    "name": "Edo",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/2/2c/Edo.png/revision/latest?cb=20241124152838",
+    "caption": "Edo (in MCB Season 1, 2 and 3)",
+    "Description": "Edo is a character from Metal Cardbot. He is the manager of Edo Motors, a car repair center frequented by Jun Grant. He was the second character after Jun to be let in on the secrets of the Cardbots.He is a highly skilled technician who has run an automobile repair center alone without any subordinates for over 10 years. He is a tremendous all-rounder with the ability to develop additional technologies, including replacing and maintaining Metal Cardbot parts as well as automobile repair, which is his main field.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-004-id",
+    "name": "Edo",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/2/2c/Edo.png/revision/latest?cb=20241124152838",
+    "caption": "Edo (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Edo adalah karakter dari Metal Cardbot . Dia adalah manajer Edo Motors, sebuah bengkel mobil yang sering dikunjungi oleh Jun Grant . Dia adalah karakter kedua setelah Jun yang mengetahui rahasia Cardbots.Dia adalah teknisi yang sangat terampil yang telah menjalankan pusat perbaikan mobil sendirian tanpa bawahan selama lebih dari 10 tahun. Dia adalah seorang yang serba bisa dengan kemampuan untuk mengembangkan teknologi tambahan, termasuk mengganti dan memelihara suku cadang Metal Cardbot serta perbaikan mobil, yang merupakan bidang utamanya.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-005-en",
+    "name": "Holden",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/5/53/Holden.png/revision/latest?cb=20260205015046",
+    "caption": "Holden (in MCB Season 2 and 3)",
+    "Description": "Holden is a character introduced in Metal Cardbot S. He is a high-ranking officer of the Motown Police and acts as a liason to the Metal Cardbots in Metal Cardbot W.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-005-id",
+    "name": "Holden",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/5/53/Holden.png/revision/latest?cb=20260205015046",
+    "caption": "Holden (dalam MCB Season 2 dan 3)",
+    "Description": "Holden adalah karakter yang diperkenalkan dalam Metal Cardbot S. Dia adalah seorang perwira berpangkat tinggi dari Kepolisian Motown dan bertindak sebagai penghubung dengan Metal Cardbots di Metal Cardbot W.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-006-en",
+    "name": "Jack",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/f/f6/Jack.jpg/revision/latest?cb=20250318110355",
+    "caption": "Jack (in MCB Season 1, 2 and 3)",
+    "Description": "Jack is a character from Metal Cardbot. He is the mayor of Mowtown and Anna's father. Their relationship is somewhat strained, especially after being complicated by his daughter wanting to protect the Cardbots, and himself wanting to protect his citizens from them. By the third season, he has made peace with the Cardbots (even though their relationship has its ups and downs due to political factors).",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-006-id",
+    "name": "Jack",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/f/f6/Jack.jpg/revision/latest?cb=20250318110355",
+    "caption": "Jack (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Jack adalah karakter dari Metal Cardbot . Dia adalah walikota Mowtown dan ayah Anna . Hubungan mereka agak tegang, terutama setelah diperumit oleh keinginan putrinya untuk melindungi Cardbot, dan keinginannya sendiri untuk melindungi warganya dari mereka. Pada musim ketiga, dia telah berdamai dengan Cardbot (meskipun hubungannya naik turun karena faktor politik).",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-007-en",
+    "name": "Jim Hopkins",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/d1/Jim_Hopkins.png/revision/latest?cb=20250313150730",
+    "caption": "Jim Hopkins (in MCB Season 2 and 3)",
+    "Description": "Jim Hopkins is a character introduced in Metal Cardbot S. He is a photojournalist for the Mowtown Times newspaper who is motivated to capture photos of the Metal Cardbots both by fear of his editor-in-chief's intensity and his own journalistic desire to expose the truth. He is a talented and persistent photographer who manages to snap the Cardbots many times, but his work repeatedly ends up lost or destroyed as the Cardbots try to keep their existence hidden.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-007-id",
+    "name": "Jim Hopkins",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/d1/Jim_Hopkins.png/revision/latest?cb=20250313150730",
+    "caption": "Jim Hopkins (dalam MCB Season 2 dan 3)",
+    "Description": "Jim Hopkins adalah karakter yang diperkenalkan dalam Metal Cardbot S. Dia adalah seorang fotojurnalis untuk surat kabar Mowtown Times yang termotivasi untuk mengambil foto Metal Cardbot karena takut akan intensitas pemimpin redaksinya dan keinginan jurnalistiknya sendiri untuk mengungkap kebenaran. Dia adalah fotografer yang berbakat dan gigih yang berhasil memotret Cardbot berkali-kali, tetapi karyanya berulang kali hilang atau hancur karena Cardbot berusaha menyembunyikan keberadaan mereka.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-008-en",
+    "name": "Johan",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/2/2b/Johan.jpg/revision/latest?cb=20250318105414",
+    "caption": "Johan (in MCB Season 1, 2 and 3)",
+    "Description": "Johan is a character from Metal Cardbot. He is Jun's father who runs the family restaurant, Milky Way, with his wife Yuri. He has a laid-back personality and is a good cook as he is often seen cooking at home in addition to the restaurant. He also takes up the role of temporary guardian of Peruru after Yuri learned that Peruru had nowhere to stay when away from home on her quest.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-008-id",
+    "name": "Johan",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/2/2b/Johan.jpg/revision/latest?cb=20250318105414",
+    "caption": "Johan (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Johan adalah karakter dari Metal Cardbot . Dia adalah ayah Jun yang menjalankan restoran keluarga, Milky Way , bersama istrinya , Yuri . Dia memiliki kepribadian yang santai dan pandai memasak karena sering terlihat memasak di rumah selain di restoran. Dia juga mengambil peran sebagai wali sementara Peruru setelah Yuri mengetahui bahwa Peruru tidak memiliki tempat tinggal saat jauh dari rumah dalam perjalanannya.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-009-en",
+    "name": "Jun Grant",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/e/e1/Jun%28official_pose%29.png/revision/latest?cb=20250815113335",
+    "caption": "Jun Grant (in MCB Season 1)",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/c/cc/Jun_S2.png/revision/latest?cb=20251010101910",
+    "caption1": "Jun Grant (in MCB Season 2)",
+    "Image2": "https://static.wikia.nocookie.net/metal-cardbot/images/5/54/Jun_Grant_%28MCW%29.png/revision/latest?cb=20251225211428",
+    "caption2": "Jun Grant (in MCB Season 3)",
+    "Description": "Jun Grant is the main protagonist of the Metal Cardbot series. An elementary school student who loves BMX, and also is very inquisitive and loves anything mysterious and exciting. Together with Blue Cop, they manage to summon the Metal Cardbots and solve any mysteries and problems happening around them.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-009-id",
+    "name": "Jun Grant",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/e/e1/Jun%28official_pose%29.png/revision/latest?cb=20250815113335",
+    "caption": "Jun Grant (dalam MCB Season 1)",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/c/cc/Jun_S2.png/revision/latest?cb=20251010101910",
+    "caption1": "Jun Grant (dalam MCB Season 2)",
+    "Image2": "https://static.wikia.nocookie.net/metal-cardbot/images/5/54/Jun_Grant_%28MCW%29.png/revision/latest?cb=20251225211428",
+    "caption2": "Jun Grant (dalam MCB Season 3)",
+    "Description": "Jun Grant adalah protagonis utama dari seri Metal Cardbot . Seorang siswa sekolah dasar yang menyukai BMX, dan juga sangat ingin tahu serta menyukai hal-hal misterius dan menarik. Bersama dengan Blue Cop, mereka berhasil memanggil Metal Cardbot dan memecahkan misteri dan masalah yang terjadi di sekitar mereka.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-010-en",
+    "name": "Kent",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/9/99/Kent.png/revision/latest?cb=20250313132635",
+    "caption": "Kent (in MCB Season 2 and 3)",
+    "Description": "Kent is a character introduced in Metal Cardbot S. He is one of Mona's kindergarten students and his parents own a flower stand in Motown. After first being antagonized by Red Blitz, he demands an apology and they become friends thanks to their similar temperaments. He then spreads the secret of Metal Cardbots around his kindergarten class, gaining them lots of allies.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-010-id",
+    "name": "Kent",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/9/99/Kent.png/revision/latest?cb=20250313132635",
+    "caption": "Kent (dalam MCB Season 2 dan 3)",
+    "Description": "Kent adalah karakter yang diperkenalkan dalam Metal Cardbot S. Dia adalah salah satu murid taman kanak-kanak Mona dan orang tuanya memiliki kios bunga di Motown. Setelah awalnya dimusuhi oleh Red Blitz , dia meminta maaf dan mereka menjadi teman berkat temperamen mereka yang mirip. Dia kemudian menyebarkan rahasia Metal Cardbots di sekitar kelas taman kanak-kanaknya, sehingga mereka mendapatkan banyak sekutu.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-011-en",
+    "name": "Leia Cayenne",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/c/c4/Leia_Cayenne.jpeg/revision/latest?cb=20260102025440",
+    "caption": "Leia Cayenne (in MCB Season 3)",
+    "Description": "Leia Cayenne is a character introduced in Metal Cardbot W. She is the mother of Crest and Soleil, and is studying both the Metal Cardbots and Wild Cardbots races.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-011-id",
+    "name": "Leia Cayenne",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/c/c4/Leia_Cayenne.jpeg/revision/latest?cb=20260102025440",
+    "caption": "Leia Cayenne (dalam MCB Season 3)",
+    "Description": "Leia Cayenne adalah karakter yang diperkenalkan dalam Metal Cardbot W. Dia adalah ibu dari Crest dan Soleil , dan sedang mempelajari ras Metal Cardbots dan Wild Cardbots ",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-012-en",
+    "name": "Maruru",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/3/30/Maruru.png/revision/latest?cb=20250123104116",
+    "caption": "Maruru (in MCB Season 2 and 3)",
+    "Description": "Maruru is a character introduced in Metal Cardbot S. She is a descendant of Mukara from Porcaca Village and Peruru's mother. She is involved with maintaining the temple where Red Blitz, Cielo, Musclehyde and Gigantrex had been sealed and were resting in before being stolen. She seems to have an active and responsible personality, as she bombards Peruru with reminders to make healthy choices and take of herself when away on her quest.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-012-id",
+    "name": "Maruru",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/3/30/Maruru.png/revision/latest?cb=20250123104116",
+    "caption": "Maruru (dalam MCB Season 2 dan 3)",
+    "Description": "Maruru adalah karakter yang diperkenalkan dalam Metal Cardbot S. Dia adalah keturunan Mukara dari Desa Porcaca dan ibu dari Peruru . Dia terlibat dalam pemeliharaan kuil tempat Red Blitz , Cielo , Musclehyde, dan Gigantrex disegel dan beristirahat sebelum dicuri. Dia tampaknya memiliki kepribadian yang aktif dan bertanggung jawab, karena dia terus-menerus mengingatkan Peruru untuk membuat pilihan yang sehat dan menjaga dirinya sendiri saat pergi dalam perjalanannya.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-013-en",
+    "name": "Monah",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/5/5e/Monah.png/revision/latest?cb=20250313132522",
+    "caption": "Monah (in MCB Season 2)",
+    "Description": "Monah is a character introduced in Metal Cardbot S. She is a teacher at Mowtown Kindergarten who often takes her class to visit Edo's auto repair shop or asks him for other favors as they have mutual crushes for each other.\nThey broke up in season 3 for unknown reasons.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-013-id",
+    "name": "Monah",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/5/5e/Monah.png/revision/latest?cb=20250313132522",
+    "caption": "Monah (dalam MCB Season 2)",
+    "Description": "adalah karakter yang diperkenalkan dalam Metal Cardbot S. Dia adalah seorang guru di Taman Kanak-kanak Mowtown yang sering mengajak kelasnya mengunjungi bengkel mobil Edo atau meminta bantuan lain kepadanya karena mereka saling menyukai.\nMereka putus di musim ke-3 karena alasan yang tidak diketahui.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-014-en",
+    "name": "Mukara",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/4/4b/Mukara.png/revision/latest?cb=20250313125950",
+    "caption": "Mukara (in MCB Season 2)",
+    "Description": "Mukara is a character introduced in Metal Cardbot S. 4,000 years ago he met Red Blitz, Cielo, Musclehyde and Gigantrex by chance and formed a strong bond with them. He has since passed away. He is the original owner of the second Metal Breath to appear in the series, which was then passed down to his descendant Peruru. It appears that he had an active and extraordinary personality similar to Jun.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-014-id",
+    "name": "Mukara",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/4/4b/Mukara.png/revision/latest?cb=20250313125950",
+    "caption": "Mukara (dalam MCB Season 2)",
+    "Description": "Mukara adalah karakter yang diperkenalkan dalam Metal Cardbot S. 4.000 tahun yang lalu ia bertemu Red Blitz , Cielo , Musclehyde , dan Gigantrex secara kebetulan dan menjalin ikatan yang kuat dengan mereka. Ia telah meninggal dunia. Ia adalah pemilik asli Metal Breath kedua yang muncul dalam seri ini, yang kemudian diwariskan kepada keturunannya, Peruru . Tampaknya ia memiliki kepribadian yang aktif dan luar biasa mirip dengan Jun .",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-015-en",
+    "name": "Peruru",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/0/01/Peruru.webp/revision/latest?cb=20241105032425",
+    "caption": "Peruru (in MCB Season 2 and 3)",
+    "Description": "Peruru is a character introduced in Metal Cardbot S. She is from Porcaca Village and is a direct descendant of the ancient Mukara, who has a mysterious connection to Metal Cardbots. She is a caretaker of the Porcaca Ruins and possesses Mukara's Metal Breath, despite not being able to use it herself. After traveling to Mowtown following rumors of Metal Cards stolen from the Porcaca Ruins, she becomes allies with Jun Grant and gives him Mukara's Metal Breath to wield. She eventually gains the ability to use the Metal Breath and keeps in touch with Jun's group as protectors of different regions of Earth.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-015-id",
+    "name": "Peruru",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/0/01/Peruru.webp/revision/latest?cb=20241105032425",
+    "caption": "Peruru (dalam MCB Season 2 dan 3)",
+    "Description": "Peruru adalah karakter yang diperkenalkan dalam Metal Cardbot S. Dia berasal dari Desa Porcaca dan merupakan keturunan langsung dari Mukara kuno , yang memiliki hubungan misterius dengan Metal Cardbot. Dia adalah penjaga Reruntuhan Porcaca dan memiliki Nafas Logam Mukara , meskipun dia sendiri tidak dapat menggunakannya. Setelah melakukan perjalanan ke Mowtown menyusul rumor tentang Kartu Logam yang dicuri dari Reruntuhan Porcaca, dia bersekutu dengan Jun Grant dan memberinya Nafas Logam Mukara untuk digunakan. Dia akhirnya mendapatkan kemampuan untuk menggunakan Nafas Logam dan tetap berhubungan dengan kelompok Jun sebagai pelindung berbagai wilayah Bumi.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-016-en",
+    "name": "Ravi",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/d6/Ravi.png/revision/latest?cb=20250102091741",
+    "caption": "Ravi (in MCB Season 1, 2 and 3)",
+    "Description": "Ravi is character from Metal Cardbot. He is one of Jun's classmates who often causes mischief with his friend Barnes, who he looks up to for his intelligence. Their mischief sometimes gets them in Cardbot-related trouble, which Jun saves them from while managing to not reveal the secret of their existence to them for some time. After the Motown Times put out a bounty for photographic evidence of Metal Cardbots, he and Barnes make a hobby of trying to doctor fake photos.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-016-id",
+    "name": "Ravi",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/d6/Ravi.png/revision/latest?cb=20250102091741",
+    "caption": "Ravi (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Ravi is character from Metal Cardbot. He is one of Jun's classmates who often causes mischief with his friend Barnes, who he looks up to for his intelligence. Their mischief sometimes gets them in Cardbot-related trouble, which Jun saves them from while managing to not reveal the secret of their existence to them for some time. After the Motown Times put out a bounty for photographic evidence of Metal Cardbots, he and Barnes make a hobby of trying to doctor fake photos.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-017-en",
+    "name": "Soleil",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/9/9b/Soleil.webp/revision/latest?cb=20260106233414",
+    "caption": "Soleil Android Human Version (in MCB Season 3)",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/1/18/Soleil_Past.5980.jpeg/revision/latest?cb=20260220005620",
+    "caption1": "Soleil Robot Version (in MCB Season 3)",
+    "Description": "Soleil is a new character in Metal Cardbot W. She is a mysterious girl and the twin sister of Crest. Her current goal is to collect the Wild Cardbots taking refuge on Earth for her mother, who plans to create a vaccine against the Wild Cardbots' Beast Virus pathogen. After Heavy Iron's betrayal, Soleil revealed herself to be an android modified with the Wild Cardbot's Metal Breath.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-017-id",
+    "name": "Soleil",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/9/9b/Soleil.webp/revision/latest?cb=20260106233414",
+    "caption": "Soleil Versi Manusia Android (dalam MCB Season 3)",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/1/18/Soleil_Past.5980.jpeg/revision/latest?cb=20260220005620",
+    "caption1": "Soleil Versi Robot (dalam MCB Season 3)",
+    "Description": "Soleil adalah karakter baru dalam Metal Cardbot W. Dia adalah seorang gadis misterius dan saudara kembar Crest . Tujuannya saat ini adalah mengumpulkan Wild Cardbot yang berlindung di Bumi untuk ibunya, yang berencana menciptakan vaksin melawan patogen Virus Binatang Wild Cardbot. Setelah pengkhianatan Heavy Iron , Soleil mengungkapkan dirinya sebagai android yang dimodifikasi dengan Napas Logam Wild Cardbot.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-018-en",
+    "name": "Teo",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/2/23/Teo_MC.png/revision/latest?cb=20260107000048",
+    "caption": "Teo (in MCB Season 1)",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/5/53/Teo_MCS.png/revision/latest?cb=20260106235244",
+    "caption1": "Teo (in MCB Season 2 and 3)",
+    "Description": "Teo is a character from Metal Cardbot. He is one of Jun's classmates. Teo had no friends when he first joined their school, but Jun quickly made him feel welcome and they became close friends. Thanks to Jun's trust, he is one of the first humans to know the secret of Metal Cardbot's existence on Earth. He is very intelligent and his proficiency in science often comes in handy.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-018-id",
+    "name": "Teo",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/2/23/Teo_MC.png/revision/latest?cb=20260107000048",
+    "caption": "Teo (dalam MCB Season 1)",
+    "Image1": "https://static.wikia.nocookie.net/metal-cardbot/images/5/53/Teo_MCS.png/revision/latest?cb=20260106235244",
+    "caption1": "Teo (dalam MCB Season 2 and 3)",
+    "Description": "Teo adalah karakter dari Metal Cardbot . Dia adalah salah satu teman sekelas Jun. Teo tidak punya teman ketika pertama kali bergabung dengan sekolah mereka, tetapi Jun dengan cepat membuatnya merasa diterima dan mereka menjadi teman dekat. Berkat kepercayaan Jun, dia adalah salah satu manusia pertama yang mengetahui rahasia keberadaan Metal Cardbot di Bumi. Dia sangat cerdas dan kemampuannya dalam sains seringkali berguna.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-019-en",
+    "name": "Warren Williams",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/1/13/Warren_Williams.png/revision/latest?cb=20250123022054",
+    "caption": "Warren Williams (in MCB Season 2 and 3)",
+    "Description": "Warren Williams is a character introduced in Metal Cardbot S. He is Wella's father and the editor-in-chief of the Mowtown Times newspaper. He is desperate for a groundbreaking article since people have largely turned their attention away from print media. The Metal Cardbots catch his interest as a potentially sensational story, and he pushes his employees to the limit and offers bounties to freelancers in hopes of being able to be the one to break the exclusive news.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-019-id",
+    "name": "Warren Williams",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/1/13/Warren_Williams.png/revision/latest?cb=20250123022054",
+    "caption": " (dalam MCB Season 2 dan 3)",
+    "Description": "Warren Williams is a character introduced in Metal Cardbot S. He is Wella's father and the editor-in-chief of the Mowtown Times newspaper. He is desperate for a groundbreaking article since people have largely turned their attention away from print media. The Metal Cardbots catch his interest as a potentially sensational story, and he pushes his employees to the limit and offers bounties to freelancers in hopes of being able to be the one to break the exclusive news.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-020-en",
+    "name": "Wella",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/da/Wella.png/revision/latest?cb=20250101055127",
+    "caption": "Wella (in MCB Season 1, 2 and 3)",
+    "Description": "Wella is a character from Metal Cardbot. She is one of Jun Grant's classmates and the daughter of Motown Times editor-in-chief Warren Williams. She often films videos with her friends around town or hangs out in her father's office when not in school. She has a large social media following thanks to capturing candid footage of Metal Cardbots.",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-020-id",
+    "name": "Wella",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/d/da/Wella.png/revision/latest?cb=20250101055127",
+    "caption": "Wella (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Wella adalah karakter dari Metal Cardbot . Dia adalah salah satu teman sekelas Jun Grant dan putri dari pemimpin redaksi Motown Times, Warren Williams . Dia sering merekam video bersama teman-temannya di sekitar kota atau nongkrong di kantor ayahnya ketika tidak di sekolah. Dia memiliki banyak pengikut di media sosial berkat rekaman candid Metal Cardbots.",
+    "category": "People",
+    "language": "id"
+  },
+  {
+    "id": "People-021-en",
+    "name": "Yuri",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/c/cc/Yuri.png/revision/latest?cb=20250118151754",
+    "caption": "Yuri (in MCB Season 1, 2 and 3)",
+    "Description": "Yuri is a character from Metal Cardbot. She is Jun's mother who runs the family restaurant, Milky Way, with her husband Johan. She is stern but compassionate and even the Cardbots consider her an authority figure. When she encountered the starving Buffalo Crush, she provided him with a garden generator for sustenance, resulting in him having a strong sense of loyalty to her for saving his life. In Metal Cardbot S, she takes up the role of temporary guardian of Peruru after learning she had nowhere to stay when away from home on her quest",
+    "category": "People",
+    "language": "en"
+  },
+  {
+    "id": "People-021-id",
+    "name": "Yuri",
+    "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/c/cc/Yuri.png/revision/latest?cb=20250118151754",
+    "caption": "Yuri (dalam MCB Season 1, 2 dan 3)",
+    "Description": "Yuri adalah karakter dari Metal Cardbot . Dia adalah ibu Jun yang menjalankan restoran keluarga, Milky Way , bersama suaminya, Johan . Dia tegas tetapi penyayang dan bahkan para Cardbot menganggapnya sebagai figur otoritas. Ketika dia bertemu dengan Buffalo Crush yang kelaparan , dia memberinya generator taman untuk bertahan hidup, yang mengakibatkan Buffalo Crush memiliki rasa loyalitas yang kuat kepadanya karena telah menyelamatkan hidupnya. Dalam Metal Cardbot S , dia mengambil peran sebagai wali sementara Peruru setelah mengetahui bahwa Peruru tidak memiliki tempat tinggal saat jauh dari rumah dalam perjalanannya.",
+    "category": "People",
+    "language": "id"
   }
 ]
