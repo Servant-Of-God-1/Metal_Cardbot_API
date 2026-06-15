@@ -13,6 +13,7 @@ data class Information(
     val caption2: String?,
     val caption3: String?,
     val caption4: String?,
+    val Quote: String?,
     val Description: String,
     val Description1: String?,
     val Description2: String?,

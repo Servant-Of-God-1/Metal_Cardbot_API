@@ -112,7 +112,8 @@ class InformationController(private val service: InformationService) {
     ): ResponseEntity<Map<String, String?>> {
         val response = service.getById(id)
         return if (response.data != null) {
-            ResponseEntity.ok(mapOf("video" to response.data.Url_Video))
+            val cleanId = response.data.Url_Video?.let { extractVideoId(it) } ?: response.data.Url_Video
+            ResponseEntity.ok(mapOf("Url_Video" to cleanId))
         } else {
             ResponseEntity.status(404).build()
         }
@@ -124,7 +125,8 @@ class InformationController(private val service: InformationService) {
     ): ResponseEntity<Map<String, String?>> {
         val response = service.getById(id)
         return if (response.data != null) {
-            ResponseEntity.ok(mapOf("video1" to response.data.Url_Video1))
+            val cleanId = response.data.Url_Video1?.let { extractVideoId(it) } ?: response.data.Url_Video1
+            ResponseEntity.ok(mapOf("url_Video1" to cleanId))
         } else {
             ResponseEntity.status(404).build()
         }
@@ -136,7 +138,8 @@ class InformationController(private val service: InformationService) {
     ): ResponseEntity<Map<String, String?>> {
         val response = service.getById(id)
         return if (response.data != null) {
-            ResponseEntity.ok(mapOf("video2" to response.data.Url_Video2))
+            val cleanId = response.data.Url_Video2?.let { extractVideoId(it) } ?: response.data.Url_Video2
+            ResponseEntity.ok(mapOf("Url_Video2" to cleanId))
         } else {
             ResponseEntity.status(404).build()
         }
@@ -148,7 +151,9 @@ class InformationController(private val service: InformationService) {
     ): ResponseEntity<Map<String, String?>> {
         val response = service.getById(id)
         return if (response.data != null) {
-            ResponseEntity.ok(mapOf("video3" to response.data.Url_Video2))
+            // FIX: Sebelumnya merujuk ke Url_Video2, sekarang diubah ke Url_Video3
+            val cleanId = response.data.Url_Video3?.let { extractVideoId(it) } ?: response.data.Url_Video3
+            ResponseEntity.ok(mapOf("Url_Video3" to cleanId))
         } else {
             ResponseEntity.status(404).build()
         }
@@ -160,7 +165,20 @@ class InformationController(private val service: InformationService) {
     ): ResponseEntity<Map<String, String?>> {
         val response = service.getById(id)
         return if (response.data != null) {
-            ResponseEntity.ok(mapOf("video4" to response.data.Url_Video4))
+            val cleanId = response.data.Url_Video4?.let { extractVideoId(it) } ?: response.data.Url_Video4
+            ResponseEntity.ok(mapOf("Url_Video4" to cleanId))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/Quote")
+    fun getQuoteOnly(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("Quote" to response.data.Quote))
         } else {
             ResponseEntity.status(404).build()
         }
@@ -306,5 +324,13 @@ class InformationController(private val service: InformationService) {
     fun getStats(): ResponseEntity<Map<String, Any>> {
         val response = service.getStats()
         return ResponseEntity.ok(response.data ?: emptyMap())
+    }
+
+    private fun extractVideoId(youtubeUrl: String): String? {
+        val pattern = "(?:youtube\\.com\\/(?:[^\\/\\n\\s]+\\/\\S+\\/|(?:v|e(?:mbed)?)\\/" +
+                "|\\S*?[?&]v=)|youtu\\.be\\/)([a-zA-Z0-9_-]{11})"
+        val regex = pattern.toRegex()
+        val matchResult = regex.find(youtubeUrl)
+        return matchResult?.groupValues?.get(1)
     }
 }
