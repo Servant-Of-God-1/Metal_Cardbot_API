@@ -82,30 +82,6 @@ class InformationController(private val service: InformationService) {
         }
     }
 
-    @GetMapping("/information/{id}/image3")
-    fun getImage3Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            ResponseEntity.ok(mapOf("image3" to response.data.Image3))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/image4")
-    fun getImage4Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            ResponseEntity.ok(mapOf("image4" to response.data.Image4))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
     @GetMapping("/information/{id}/video")
     fun getVideoOnly(
         @PathVariable("id") id: String
@@ -114,59 +90,6 @@ class InformationController(private val service: InformationService) {
         return if (response.data != null) {
             val cleanId = response.data.Url_Video?.let { extractVideoId(it) } ?: response.data.Url_Video
             ResponseEntity.ok(mapOf("Url_Video" to cleanId))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/video1")
-    fun getVideo1Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            val cleanId = response.data.Url_Video1?.let { extractVideoId(it) } ?: response.data.Url_Video1
-            ResponseEntity.ok(mapOf("url_Video1" to cleanId))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/video2")
-    fun getVideo2Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            val cleanId = response.data.Url_Video2?.let { extractVideoId(it) } ?: response.data.Url_Video2
-            ResponseEntity.ok(mapOf("Url_Video2" to cleanId))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/video3")
-    fun getVideo3Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            // FIX: Sebelumnya merujuk ke Url_Video2, sekarang diubah ke Url_Video3
-            val cleanId = response.data.Url_Video3?.let { extractVideoId(it) } ?: response.data.Url_Video3
-            ResponseEntity.ok(mapOf("Url_Video3" to cleanId))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/video4")
-    fun getVideo4Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            val cleanId = response.data.Url_Video4?.let { extractVideoId(it) } ?: response.data.Url_Video4
-            ResponseEntity.ok(mapOf("Url_Video4" to cleanId))
         } else {
             ResponseEntity.status(404).build()
         }
@@ -232,18 +155,6 @@ class InformationController(private val service: InformationService) {
         }
     }
 
-    @GetMapping("/information/{id}/description4")
-    fun getDescription4Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, Any?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            ResponseEntity.ok(mapOf("description4" to response.data.Description4))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
     @GetMapping("/information/{id}/caption")
     fun getCaptionOnly(
         @PathVariable("id") id: String
@@ -263,42 +174,6 @@ class InformationController(private val service: InformationService) {
         val response = service.getById(id)
         return if (response.data != null) {
             ResponseEntity.ok(mapOf("caption1" to response.data.caption1))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/caption2")
-    fun getCaption2Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            ResponseEntity.ok(mapOf("caption2" to response.data.caption2))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/caption3")
-    fun getcaption3Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            ResponseEntity.ok(mapOf("caption3" to response.data.caption3))
-        } else {
-            ResponseEntity.status(404).build()
-        }
-    }
-
-    @GetMapping("/information/{id}/caption4")
-    fun getcaption4Only(
-        @PathVariable("id") id: String
-    ): ResponseEntity<Map<String, String?>> {
-        val response = service.getById(id)
-        return if (response.data != null) {
-            ResponseEntity.ok(mapOf("caption4" to response.data.caption4))
         } else {
             ResponseEntity.status(404).build()
         }
