@@ -423,7 +423,6 @@
     "id": "Blaion-en",
     "name": "Blaion",
     "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/7/71/Blaion_profile.png/revision/latest?cb=20251202223542",
-    "Url_Video": "",
     "caption": "Blaion (in MCB Season 3)",
     "Description": "Blaion is one of the Wild Cardbots in Metal Cardbot W. He is known as the Lion of Flames, the sole survivor of his tribe, and accompanies the android Soleil, who was chosen by the Metal Breath, with the wish to become the bridge to coexistence between humans and Wild Cardbots",
     "Description1": "The weaponry carried is only Ladder Shoot. While the weapon card is a Roar Gauntlet with commands such as Fire Roar Blaze for a fire sword slash, Omega Heat Flame for a high-temperature fire blast (the concept is the same as a flamethrower), Leo Roar Shoot to produce and launch a fireball.",
@@ -434,7 +433,6 @@
     "id": "Blaion-id",
     "name": "Blaion",
     "Image": "https://static.wikia.nocookie.net/metal-cardbot/images/7/71/Blaion_profile.png/revision/latest?cb=20251202223542",
-    "Url_Video": "",
     "caption": "Blaion (dalam MCB Season 3)",
     "Description": "Blaion adalah salah satu Wild Cardbot di Metal Cardbot W. Ia dikenal sebagai Singa Api, satu-satunya yang selamat dari sukunya, dan menemani android Soleil, yang dipilih oleh Metal Breath, dengan harapan untuk menjadi jembatan menuju koeksistensi antara manusia dan Wild Cardbot.",
     "Description1": "Persenjataan bawaan hanya Ladder Shoot. sedangkan kartu senjatanya berupa  Roar Gauntlet dengan jurus seperti Fire Roar Blaze untuk tebasan pedang api, Omega Heat Flame untuk semburan api bersuhu tinggi (konsepnya sama kayak flamethrower), Leo Roar Shoot untuk menghasilkan dan meluncurkan bola api",
@@ -449,7 +447,7 @@
     "caption": "Blastrain (in MCB Season 2 and 3)",
     "Quote": "\"Hello, passengers. I am Blastrain, the conductor of this train\".",
     "Description": "Blastrain is a Cardbot introduced in Metal Cardbot S. Initially the source of rumors of the Midnight Express ghost train at Mowtown Station, Blastrain suffered from electrical malfunction due to being overloaded from the train tracks' third rail. He was saved and sealed by Jun Grant and his Cardbot allies, leading to becoming an ally and reconfigured by Edo and Teo to become immune to electrical overload.",
-    "Description1": "Default weapons such as Hyper Dimension Rail, Blast Shoot, Train Wheels, Horn Pulse, Head Drone, and Shoulder Blast with abilities such as Hyper Dimension Rail which allows you to move as wide as possible even without train tracks. While the Weapon Card is Blast Claw with moves such as Last Destination lighting the Blast Claw with fire, then moving forward along the light rail to attack the opponent at full speed and Crossover Storm to swing the Blast Claws in an X shape to release three orange energy slashes.",
+    "Description1": "Default weapons such as Blast Shoot, Train Wheels, Horn Pulse, Head Drone, and Shoulder Blast with abilities such as Hyper Dimension Rail which allows you to move as wide as possible even without train tracks. While the Weapon Card is Blast Claw with moves such as Last Destination lighting the Blast Claw with fire, then moving forward along the light rail to attack the opponent at full speed and Crossover Storm to swing the Blast Claws in an X shape to release three orange energy slashes.",
     "category": "Robot",
     "language": "en"
   },
@@ -461,7 +459,7 @@
     "caption": "Blastrain (dalam MCB Season 2 dan 3)",
     "Qoute": "\"Halo penumpang. Saya Blastrain, kondektur kereta ini.\"",
     "Description": "Blastrain adalah Cardbot yang diperkenalkan dalam Metal Cardbot S. Awalnya sebagai sumber rumor tentang kereta hantu Midnight Express di Stasiun Mowtown, Blastrain mengalami kerusakan listrik karena kelebihan beban dari rel ketiga jalur kereta. Ia diselamatkan dan disegel oleh Jun Grant dan sekutu Cardbot-nya, yang kemudian menjadi sekutu dan dikonfigurasi ulang oleh Edo dan Teo agar kebal terhadap kelebihan beban listrik.",
-    "Description1": "Persenjataan bawaan seperti Hyper Dimension Rail, Blast Shoot, Train Wheels, Horn Pulse, Head Drone, dan Shoulder Blast dengan kemampuan seperti Hyper Dimension Rail yang memungkinkan untuk bisa bergerak seluasa mungkin walaupun tanpa rel kereta sekalipun. Sedangkan Kartu Senjatanya adalah Blast Claw dengan jurus seperti Last Destination menyalakan Cakar Ledakan dengan api, lalu bergerak maju di sepanjang rel cahaya untuk menyerang lawan dengan kecepatan penuh dan Crossover Storm untuk mengayunkan Blast Claws dalam bentuk X untuk melepaskan tiga tebasan energi oranye",
+    "Description1": "Persenjataan bawaan seperti Blast Shoot, Train Wheels, Horn Pulse, Head Drone, dan Shoulder Blast dengan kemampuan seperti Hyper Dimension Rail yang memungkinkan untuk bisa bergerak seluasa mungkin walaupun tanpa rel kereta sekalipun. Sedangkan Kartu Senjatanya adalah Blast Claw dengan jurus seperti Last Destination menyalakan Cakar Ledakan dengan api, lalu bergerak maju di sepanjang rel cahaya untuk menyerang lawan dengan kecepatan penuh dan Crossover Storm untuk mengayunkan Blast Claws dalam bentuk X untuk melepaskan tiga tebasan energi oranye",
     "category": "Robot",
     "language": "id"
   },
