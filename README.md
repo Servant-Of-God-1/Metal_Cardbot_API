@@ -59,8 +59,8 @@ languageVersion = JavaLanguageVersion.of(Java machine on your computer)
 }
 }
 ```
-### 5. To check whether the Restful API is actually working, try testing it in a browser by typing http://localhost:8080/api/information
-### 6. Click Play for running the restful API
+### 5. Click Play for running the restful API
+### 6. To check whether the Restful API is actually working, try testing it in a browser by typing http://localhost:8080/api/information
 ### 7. Connection your laptop and your device with the same Connection (like same WI-FI or same connection)
 ### 8. Check your IPv4 address by searching through the command prompt by typing ipconfig.
 ### 9. Copy the IPv4 address from the command prompt to display information from the Public API.
