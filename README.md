@@ -42,7 +42,7 @@ consists of data such as
 
 
 if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/Controller to set up the public API call  
-and edit the information file in the InformationController file in src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/model to add the data variable.
+and edit the information file in src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/model to add the data variable.
 or if you want to change a information, you have to edit in information.json file from src/main/kotlin/resources/data 
 
 # How to deploy a METAL CARDBOT API code
