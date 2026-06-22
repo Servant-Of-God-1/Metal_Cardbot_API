@@ -11,13 +11,13 @@ class InformationController(private val service: InformationService) {
 
     @GetMapping("/information")
     fun listInformation(
-        @RequestParam(defaultValue = "20") limit: Int,
+        @RequestParam(defaultValue = "116") limit: Int,
         @RequestParam(defaultValue = "0") offset: Int,
         @RequestParam(required = false) category: String?,
         @RequestParam(required = false) language: String?,
         @RequestParam(required = false) name: String?
     ): ResponseEntity<List<Information>> {
-        if (limit < 1 || limit > 50) {
+        if (limit < 1 || limit > 116) {
             return ResponseEntity.status(400).body(emptyList())
         }
 
@@ -174,6 +174,18 @@ class InformationController(private val service: InformationService) {
         val response = service.getById(id)
         return if (response.data != null) {
             ResponseEntity.ok(mapOf("caption1" to response.data.caption1))
+        } else {
+            ResponseEntity.status(404).build()
+        }
+    }
+
+    @GetMapping("/information/{id}/caption2")
+    fun getCaption2Only(
+        @PathVariable("id") id: String
+    ): ResponseEntity<Map<String, String?>> {
+        val response = service.getById(id)
+        return if (response.data != null) {
+            ResponseEntity.ok(mapOf("caption2" to response.data.caption2))
         } else {
             ResponseEntity.status(404).build()
         }
