@@ -64,6 +64,7 @@ languageVersion = JavaLanguageVersion.of(Java machine on your computer)
 ### 7. Connection your laptop and your device with the same Connection (like same WI-FI or same connection)
 ### 8. Check your IPv4 address by searching through the command prompt by typing ipconfig.
 ### 9. Copy the IPv4 address from the command prompt to display information from the Public API.
+
 ## B. Run your deploy (Via Railway)
 ### 1. Download my repository code
 https://github.com/Servant-Of-God-1/Metal_Cardbot_API/archive/refs/heads/master.zip
