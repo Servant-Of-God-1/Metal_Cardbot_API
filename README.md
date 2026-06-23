@@ -1,4 +1,12 @@
 # METAL CARDBOT API Code 🤖
+
+<div class="card-container">
+    <div class="card" style="animation-delay: 0s;"><span typeof="mw:File"><a href="/wiki/Metal_Cardbot_S" title="Metal Cardbot S"><img alt="Slider image 1" src="https://static.wikia.nocookie.net/metal-cardbot/images/e/ef/Slider_image_1.jpg/revision/latest?cb=20260528020307" decoding="async" loading="lazy" width="800" height="442" class="mw-file-element" data-image-name="Slider image 1.jpg" data-image-key="Slider_image_1.jpg" data-relevant="1"></a></span></div>
+    <div class="card" style="animation-delay: -4s;"><span typeof="mw:File"><a href="/wiki/Metal_Cardbot_W" title="Metal Cardbot W"><img alt="Slider image 3" src="https://static.wikia.nocookie.net/metal-cardbot/images/a/ae/Slider_image_3.jpg/revision/latest/scale-to-width-down/800?cb=20260528231155" decoding="async" loading="lazy" width="800" height="450" class="mw-file-element" data-image-name="Slider image 3.jpg" data-image-key="Slider_image_3.jpg" data-relevant="1"></a></span></div>
+    <div class="card" style="animation-delay: -8s;"><span typeof="mw:File"><a href="/wiki/Machina" title="Machina"><img alt="Slider image 4" src="https://static.wikia.nocookie.net/metal-cardbot/images/0/01/Slider_image_4.jpg/revision/latest?cb=20260528020310" decoding="async" loading="lazy" width="800" height="447" class="mw-file-element" data-image-name="Slider image 4.jpg" data-image-key="Slider_image_4.jpg" data-relevant="1"></a></span></div>
+    <div class="card" style="animation-delay: -12s;"><span typeof="mw:File"><a href="/wiki/Metal_Cardbot_(season_1)" title="Metal Cardbot (season 1)"><img alt="Slider image 8" src="https://static.wikia.nocookie.net/metal-cardbot/images/1/16/Slider_image_8.jpg/revision/latest/scale-to-width-down/800?cb=20260528020503" decoding="async" loading="lazy" width="800" height="450" class="mw-file-element lazyloaded" data-image-name="Slider image 8.jpg" data-image-key="Slider_image_8.jpg" data-relevant="1" data-src="https://static.wikia.nocookie.net/metal-cardbot/images/1/16/Slider_image_8.jpg/revision/latest/scale-to-width-down/800?cb=20260528020503"></a></span></div>
+</div>
+
 I'm using Information From https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki for build a API Public.
 I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON) Im using image from https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki and and video url from https://www.youtube.com/@metalcardbotTV.
 Don't worry about price, its free you use a my API PUBLIC
