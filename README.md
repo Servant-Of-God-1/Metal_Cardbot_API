@@ -9,36 +9,36 @@
   <i>Metal Cardbot (season 1)</i>
 </p>
 
-I'm using Information From https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki for build a API Public.
-I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON) Im using image from https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki and and video url from https://www.youtube.com/@metalcardbotTV.
-Don't worry about price, its free you use a my API PUBLIC
+I'm using Information From https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki for build an API Public.
+I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON) Im using image from https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki and video url from https://www.youtube.com/@metalcardbotTV.
 If you want to edit my API like adding additional information, you can edit my API (there is no prohibition for that)
 It is strictly forbidden to misuse the API for personal gain that will harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator) ❌
 Available in two languages: English and Indonesian
 
 # Data variable structrue
 consists of data such as
-1. id (String) = id character,
-2. name (String) = name character,
-3. Image (String) = image character (url link),
-4. Image1 (String) = image character (url link),
-5. Image2 (String) = image character (url link),
-6. Qoute (String) = Qoute Character (using \"{qoute}\" for {qoute}),
-7. Caption (String) = Explain the context,
-8. Caption1 (String) = Explain the context,
-9. Caption3 (String) = Explain the context,
-10. Decription (String) = Description about character (Overview),
-11. Decription1 (String) = Description about character,
-12. Decription2 (String) = Description about character,
-13. Decription3 (String) = Description about character,
-14. Url_Video (String) = video link (url youtube only),
-15. category (String) = Language category
+| type data | explain |
+| id (String) | id character |
+| name (String) |  name character | 
+| Image (String) |  image character (url link) | 
+| Image1 (String) |  image character (url link) |
+| Image2 (String) |  image character (url link) |
+| Qoute (String) |  Qoute Character (using \"{qoute}\" for {qoute}) |
+| Caption (String) |  Explain the context |
+| Caption1 (String) |  Explain the context |
+| Caption3 (String) |  Explain the context |
+| Decription (String) |  Description about character (Overview) |
+| Decription1 (String) |  Description about character |
+| Decription2 (String) |  Description about character |
+| Decription3 (String) |  Description about character |
+| Url_Video (String) |  video link (url youtube only) |
+| category (String) |  Language category |
 
 # Public API Call Types
 ## 1. api/information to display all Metal Cardbot character information
 ## 2. api/information?language=id to display all Metal Cardbot character information in Indonesian
 ## 3. api/information?language=en to display all Metal Cardbot character information in English
-## 4. api/information/{id} to display specific information about one of the Metal Cardbot characters. Each ID has a different language, with the ID format being name_character-id (for Indonesian) and name_character-en (for English).
+## 4. api/information/{id} to display specific information about one of the Metal Cardbot characters. Each ID has a different language,  with the ID format being name_character-id (for Indonesian) and name_character-en (for English).
 ## 5. api/information/{id}/image to display image one Metal Cardbot characters
 ## 6. api/information/{id}/image1 to display image one Metal Cardbot characters
 ## 7. api/information/{id}/image2 to display image one Metal Cardbot characters
