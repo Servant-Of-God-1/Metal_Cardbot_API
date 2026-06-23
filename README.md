@@ -54,9 +54,19 @@ consists of data such as
 | api/categories | display how many are there in that category
 
 
-***if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in ```src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/Controller``` to set up the public API call  
-and edit the information file in ```src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/model``` to add the data variable.
-or if you want to change a information, you have to edit in information.json file from ```src/main/kotlin/resources/data```***
+***if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in 
+``` 
+src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/Controller
+``` 
+to set up the public API call and edit the information file in 
+```
+src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/model
+``` 
+to add the data variable. or if you want to change a information, you have to edit in information.json file from 
+```
+src/main/kotlin/resources/data
+```
+***
 
 # How to deploy a METAL CARDBOT API code
 ## A. Run your connection (Local Network)
@@ -81,7 +91,11 @@ languageVersion = JavaLanguageVersion.of(Java machine on your computer)
 ### 8. Check your IPv4 address by searching through the command prompt by typing ipconfig.
 ### 9. Copy the IPv4 address from the command prompt to display information from the Public API.
 
-***Warning: If you are using the local network option, then try to use a WiFi hotspot-based network from a cellphone that supports turning on the hotspot + WiFi simultaneously to avoid IPV4 changes due to the device restarting. Or maybe try to create a Static IP network by following the steps in the video link below ```https://youtu.be/HL5gEHqHk4A?si=6sdacLEohUaXOKvg```***
+***Warning: If you are using the local network option, then try to use a WiFi hotspot-based network from a cellphone that supports turning on the hotspot + WiFi simultaneously to avoid IPV4 changes due to the device restarting. Or maybe try to create a Static IP network by following the steps in the video link below 
+```
+https://youtu.be/HL5gEHqHk4A?si=6sdacLEohUaXOKvg
+```
+***
 
 ## B. Run your deploy (Via Railway)
 ### 1. Download my repository code
