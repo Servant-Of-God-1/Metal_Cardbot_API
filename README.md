@@ -13,7 +13,8 @@ I'm using Information from
 ```
 https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
 ```
-for build an API Public. I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON) Im using image from 
+for build an API Public. I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON). 
+Im using image from 
 ```
 https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
 ```
