@@ -39,19 +39,19 @@ consists of data such as
 | API CALL | Function |
 | :--- | :--- |
 | api/information | display all Metal Cardbot character information |
-| 2. api/information?language=id | display all Metal Cardbot character information in Indonesian |
-| 3. api/information?language=en | display all Metal Cardbot character information in English |
-| 4. api/information/{id} | display specific information about one of the Metal Cardbot characters. Each ID has a different language,  with the ID format being name_character-id (for Indonesian) and name_character-en (for English). |
-| 5. api/information/{id}/image | display image one Metal Cardbot characters |
-| 6. api/information/{id}/image1 | display image one Metal Cardbot characters |
-| 7. api/information/{id}/image2 | display image one Metal Cardbot characters |
-| 8. api/information/{id}/video | display video about one Metal Cardbot characters |
-| 9. api/information/{id}/quote | display pupolar quote about one Metal Cardbot characters |
-| 10. api/information/{id}/description | display description about one Metal Cardbot characters |
-| 11. api/information/{id}/description1 | display description about one Metal Cardbot characters |
-| 12. api/information/{id}/description2 | display description about one Metal Cardbot characters |
-| 13. api/information/{id}/description3 | display description about one Metal Cardbot characters |
-| 14. api/categories | display how many are there in that category
+| api/information?language=id | display all Metal Cardbot character information in Indonesian |
+| api/information?language=en | display all Metal Cardbot character information in English |
+| api/information/{id} | display specific information about one of the Metal Cardbot characters. Each ID has a different language,  with the ID format being name_character-id (for Indonesian) and name_character-en (for English). |
+| api/information/{id}/image | display image one Metal Cardbot characters |
+| api/information/{id}/image1 | display image one Metal Cardbot characters |
+| api/information/{id}/image2 | display image one Metal Cardbot characters |
+| api/information/{id}/video | display video about one Metal Cardbot characters |
+| api/information/{id}/quote | display pupolar quote about one Metal Cardbot characters |
+| api/information/{id}/description | display description about one Metal Cardbot characters |
+| api/information/{id}/description1 | display description about one Metal Cardbot characters |
+| api/information/{id}/description2 | display description about one Metal Cardbot characters |
+| api/information/{id}/description3 | display description about one Metal Cardbot characters |
+| api/categories | display how many are there in that category
 
 
 if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/Controller to set up the public API call  
