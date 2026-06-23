@@ -21,7 +21,7 @@ and video url from
 ```
 https://www.youtube.com/@metalcardbotTV.
 ```
-Misuse of the API for personal gain that would harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator) is strictly prohibited. Furthermore, this code is in no way affiliated with SAMG (it's purely programming-based fanart). Available in two languages: English and Indonesian (in the future I will develop it for other languages ​​if possible)
+It is strictly forbidden to misuse the API for personal gain that will harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator). Furthermore, this code is in no way affiliated with SAMG (this is purely programming-based fanart). Available in two languages: English and Indonesian (I will develop it for other languages ​​in the future if possible)
 
 # Data variable structrue
 consists of data such as
