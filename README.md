@@ -24,7 +24,7 @@ consists of data such as
 | Image (String) |  image character (url link) | 
 | Image1 (String) |  image character (url link) |
 | Image2 (String) |  image character (url link) |
-| Qoute (String) |  Qoute Character (using \"{qoute}\" for {qoute}) |
+| Qoute (String) |  Qoute Character (using ```\"{qoute}\"``` for {qoute}) |
 | Caption (String) |  Explain the context |
 | Caption1 (String) |  Explain the context |
 | Caption3 (String) |  Explain the context |
@@ -36,20 +36,22 @@ consists of data such as
 | category (String) |  Language category |
 
 # Public API Call Types
-## 1. api/information to display all Metal Cardbot character information
-## 2. api/information?language=id to display all Metal Cardbot character information in Indonesian
-## 3. api/information?language=en to display all Metal Cardbot character information in English
-## 4. api/information/{id} to display specific information about one of the Metal Cardbot characters. Each ID has a different language,  with the ID format being name_character-id (for Indonesian) and name_character-en (for English).
-## 5. api/information/{id}/image to display image one Metal Cardbot characters
-## 6. api/information/{id}/image1 to display image one Metal Cardbot characters
-## 7. api/information/{id}/image2 to display image one Metal Cardbot characters
-## 8. api/information/{id}/video to display video about one Metal Cardbot characters
-## 9. api/information/{id}/quote to display pupolar quote about one Metal Cardbot characters
-## 10. api/information/{id}/description to display description about one Metal Cardbot characters
-## 11. api/information/{id}/description1 to display description about one Metal Cardbot characters
-## 12. api/information/{id}/description2 to display description about one Metal Cardbot characters
-## 13. api/information/{id}/description3 to display description about one Metal Cardbot characters
-## 14. api/categories to display how many are there in that category
+| API CALL | Function |
+| :--- | :--- |
+| api/information | display all Metal Cardbot character information |
+| 2. api/information?language=id | display all Metal Cardbot character information in Indonesian |
+| 3. api/information?language=en | display all Metal Cardbot character information in English |
+| 4. api/information/{id} | display specific information about one of the Metal Cardbot characters. Each ID has a different language,  with the ID format being name_character-id (for Indonesian) and name_character-en (for English). |
+| 5. api/information/{id}/image | display image one Metal Cardbot characters |
+| 6. api/information/{id}/image1 | display image one Metal Cardbot characters |
+| 7. api/information/{id}/image2 | display image one Metal Cardbot characters |
+| 8. api/information/{id}/video | display video about one Metal Cardbot characters |
+| 9. api/information/{id}/quote | display pupolar quote about one Metal Cardbot characters |
+| 10. api/information/{id}/description | display description about one Metal Cardbot characters |
+| 11. api/information/{id}/description1 | display description about one Metal Cardbot characters |
+| 12. api/information/{id}/description2 | display description about one Metal Cardbot characters |
+| 13. api/information/{id}/description3 | display description about one Metal Cardbot characters |
+| 14. api/categories | display how many are there in that category
 
 
 if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/Controller to set up the public API call  
@@ -59,11 +61,13 @@ or if you want to change a information, you have to edit in information.json fil
 # How to deploy a METAL CARDBOT API code
 ## A. Run your connection (Local Network)
 ### 1. Download my repository code
+```
 https://github.com/Servant-Of-God-1/Metal_Cardbot_API/archive/refs/heads/master.zip
+```
 ### 2. download Intelij IDEA for running restful API
 ### 3. Extract ZIP file resful API from repository and open with intelij IDEA
 ### 4. Please double-check the Java machine version on your laptop by typing "java --version" in the command prompt and remove the value before the dot. Match the Java machine in your project to the one on your computer by editing the build.gradle.kts file (kotlin-restful-api) and changing it to the following code:
-``` kotlin
+```
 java {
 toolchain {
 languageVersion = JavaLanguageVersion.of(Java machine on your computer)
@@ -71,21 +75,22 @@ languageVersion = JavaLanguageVersion.of(Java machine on your computer)
 }
 ```
 ### 5. Click Play for running the restful API
-### 6. To check whether the Restful API is actually working, try testing it in a browser by typing http://localhost:8080/api/information
+### 6. To check whether the Restful API is actually working, try testing it in a browser by typing 
+``` http://localhost:8080/api/information ```
 ### 7. Connection your laptop and your device with the same Connection (like same WI-FI or same connection)
 ### 8. Check your IPv4 address by searching through the command prompt by typing ipconfig.
 ### 9. Copy the IPv4 address from the command prompt to display information from the Public API.
 
-Warning: If you are using the local network option, then try to use a WiFi hotspot-based network from a cellphone that supports turning on the hotspot + WiFi simultaneously to avoid IPV4 changes due to the device restarting. Or maybe try to create a Static IP network by following the steps in the video link below https://youtu.be/HL5gEHqHk4A?si=6sdacLEohUaXOKvg
+Warning: If you are using the local network option, then try to use a WiFi hotspot-based network from a cellphone that supports turning on the hotspot + WiFi simultaneously to avoid IPV4 changes due to the device restarting. Or maybe try to create a Static IP network by following the steps in the video link below ```https://youtu.be/HL5gEHqHk4A?si=6sdacLEohUaXOKvg```
 
 ## B. Run your deploy (Via Railway)
 ### 1. Download my repository code
-https://github.com/Servant-Of-God-1/Metal_Cardbot_API/archive/refs/heads/master.zip
+```https://github.com/Servant-Of-God-1/Metal_Cardbot_API/archive/refs/heads/master.zip```
 ### 2. Create your own GitHub repository
 ### 3. Log in to railway to run the API
 ### 4. Select the repository you created to deploy the application
 ### 5. Select the Railpack builder and adjust the Java version used in the deployment in the build.gradle.kts file (kotlin-restful-api) and change it to the following code:
-``` kotlin
+```
 java {
    toolchain {
    languageVersion = JavaLanguageVersion.of(Java version that supports railpack railway)
