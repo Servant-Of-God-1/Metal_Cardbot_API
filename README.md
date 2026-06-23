@@ -9,7 +9,7 @@
   <i>Metal Cardbot (season 1)</i>
 </p>
 
-I'm using Information From https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki for build an API Public.
+I'm using Information from https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki for build an API Public.
 I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON) Im using image from https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki and video url from https://www.youtube.com/@metalcardbotTV.
 If you want to edit my API like adding additional information, you can edit my API (there is no prohibition for that)
 It is strictly forbidden to misuse the API for personal gain that will harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator) ❌
