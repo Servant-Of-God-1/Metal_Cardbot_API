@@ -9,11 +9,19 @@
   <i>Metal Cardbot (season 1)</i>
 </p>
 
-I'm using Information from https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki for build an API Public.
-I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON) Im using image from https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki and video url from https://www.youtube.com/@metalcardbotTV.
-If you want to edit my API like adding additional information, you can edit my API (there is no prohibition for that)
-It is strictly forbidden to misuse the API for personal gain that will harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator) ❌
-Available in two languages: English and Indonesian
+I'm using Information from 
+```
+https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
+```
+for build an API Public. I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON) Im using image from 
+```
+https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
+```
+and video url from 
+```
+https://www.youtube.com/@metalcardbotTV.
+```
+Misuse of the API for personal gain that would harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator) is strictly prohibited. Furthermore, this code is in no way affiliated with SAMG (it's purely programming-based fanart). Available in two languages: English and Indonesian (in the future I will develop it for other languages ​​if possible)
 
 # Data variable structrue
 consists of data such as
