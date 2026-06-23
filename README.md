@@ -18,6 +18,7 @@ Available in two languages: English and Indonesian
 # Data variable structrue
 consists of data such as
 | type data | explain |
+| :--- | :--- |
 | id (String) | id character |
 | name (String) |  name character | 
 | Image (String) |  image character (url link) | 
