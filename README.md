@@ -2,11 +2,11 @@
 
 <p align="center">
   <img src="https://static.wikia.nocookie.net/metal-cardbot/images/e/ef/Slider_image_1.jpg/revision/latest?cb=20260528020307" alt="Metal Cardbot S (season 2)" width="100%" />
-  <i>Metal Cardbot S (season 2)</i>
+  <b>Metal Cardbot S (season 2)</b>
   <img src="https://static.wikia.nocookie.net/metal-cardbot/images/a/ae/Slider_image_3.jpg/revision/latest/scale-to-width-down/800?cb=20260528231155" alt="Metal Cardbot W (season 3)" width="100%" />
-  <i>Metal Cardbot W (season 3)</i>
+  <b>Metal Cardbot W (season 3)</b>
   <img src="https://static.wikia.nocookie.net/metal-cardbot/images/1/16/Slider_image_8.jpg/revision/latest/scale-to-width-down/800?cb=20260528020503" alt="Metal Cardbot (season 1)" width="100%" />
-  <i>Metal Cardbot (season 1)</i>
+  <b>Metal Cardbot (season 1)</b>
 </p>
 
 I'm using Information from 
