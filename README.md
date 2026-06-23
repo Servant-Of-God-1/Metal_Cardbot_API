@@ -9,20 +9,20 @@
   <b>Metal Cardbot (season 1)</b>
 </p>
 
-I'm using Information from 
+***I'm using Information from*** 
 ```
 https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
 ```
-for build a Restful API code. I dont use a database anything (just Spring Boot and gladle for kotlin). So this Restful API code Static (with JSON). 
-Im using image from 
+***for build a Restful API code. I dont use a database anything (just Spring Boot and gladle for kotlin). So this Restful API code Static (with JSON). 
+Im using image from*** 
 ```
 https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
 ```
-and video url from 
+***and video url from***
 ```
 https://www.youtube.com/@metalcardbotTV.
 ```
-It is strictly forbidden to misuse the API for personal gain that will harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator). Furthermore, this code is in no way affiliated with SAMG (this is purely programming-based fanart). Available in two languages: English and Indonesian (I will develop it for other languages ​​in the future if possible)
+***It is strictly forbidden to misuse the API for personal gain that will harm me, the Metal Cardbot fandom wiki, and SAMG (as its creator). Furthermore, this code is in no way affiliated with SAMG (this is purely programming-based fanart). Available in two languages: English and Indonesian (I will develop it for other languages ​​in the future if possible)***
 
 # Data variable structrue
 consists of data such as
@@ -63,19 +63,18 @@ consists of data such as
 | api/categories | display how many are there in that category
 
 
-***if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in 
+***if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in*** 
 ``` 
 src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/Controller
 ``` 
-to set up the public API call and edit the information file in 
+***to set up the public API call and edit the information file in*** 
 ```
 src/main/kotlin/Metalcardbot_testmyapi_kotlin_restful_api/model
 ``` 
-to add the data variable. or if you want to change a information, you have to edit in information.json file from 
+***to add the data variable. or if you want to change a information, you have to edit in information.json file from***
 ```
 src/main/kotlin/resources/data
 ```
-***
 
 # How to deploy a METAL CARDBOT API code
 ## A. Run your connection (Local Network)
@@ -100,11 +99,10 @@ languageVersion = JavaLanguageVersion.of(Java machine on your computer)
 ### 8. Check your IPv4 address by searching through the command prompt by typing ipconfig.
 ### 9. Copy the IPv4 address from the command prompt to display information from the Public API.
 
-***Warning: If you are using the local network option, then try to use a WiFi hotspot-based network from a cellphone that supports turning on the hotspot + WiFi simultaneously to avoid IPV4 changes due to the device restarting. Or maybe try to create a Static IP network by following the steps in the video link below 
+***Warning: If you are using the local network option, then try to use a WiFi hotspot-based network from a cellphone that supports turning on the hotspot + WiFi simultaneously to avoid IPV4 changes due to the device restarting. Or maybe try to create a Static IP network by following the steps in the video link below***
 ```
 https://youtu.be/HL5gEHqHk4A?si=6sdacLEohUaXOKvg
 ```
-***
 
 ## B. Run your deploy (Via Railway)
 ### 1. Download my repository code
@@ -124,5 +122,5 @@ java {
 ### 7. Copy the public API link you created and paste it into your project
 
 
-Thank you to the Metal Cardbot fandom wiki for providing information about Metal Cardbot as a resource🙏. thank you also to those of you who have used my API🙏.
-I apologize if this API I created is still not perfect in your opinion🙏 and i apologize for making a ready-to-use version due to limited funds to deploy it🙏.
+***Thank you to the Metal Cardbot fandom wiki for providing information about Metal Cardbot as a resource🙏. thank you also to those of you who have used my API🙏.
+I apologize if this API I created is still not perfect in your opinion🙏 and i apologize for making a ready-to-use version due to limited funds to deploy it🙏.***
