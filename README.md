@@ -1,4 +1,4 @@
-# METAL CARDBOT API Code 🤖
+# METAL CARDBOT Restful API Code (read only) 🤖
 
 <p align="center">
   <img src="https://static.wikia.nocookie.net/metal-cardbot/images/e/ef/Slider_image_1.jpg/revision/latest?cb=20260528020307" alt="Metal Cardbot S (season 2)" width="100%" />
@@ -13,7 +13,7 @@ I'm using Information from
 ```
 https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
 ```
-for build an API Public. I dont use a database anything (just Spring Boot and gladle for kotlin). So this API Public Static (with JSON). 
+for build a Restful API code. I dont use a database anything (just Spring Boot and gladle for kotlin). So this Restful API code Static (with JSON). 
 Im using image from 
 ```
 https://metal-cardbot.fandom.com/wiki/METAL_CARDBOT_Wiki
