@@ -48,8 +48,8 @@ consists of data such as
 | End Point Restful API Call | Function |
 | :--- | :--- |
 | api/information | display all Metal Cardbot character information |
-| api/information?language=id | display all Metal Cardbot character information in Indonesian |
-| api/information?language=en | display all Metal Cardbot character information in English |
+| api/information?language=id | display all Metal Cardbot character information in Indonesian | detailed information about the character |
+| api/information?language=en | display all Metal Cardbot character information in English | detailed information about the character |
 | api/information/{id} | display specific information about one of the Metal Cardbot characters. Each ID has a different language,  with the ID format being name_character-id (for Indonesian) and name_character-en (for English). |
 | api/information/{id}/image | display image one Metal Cardbot characters |
 | api/information/{id}/image1 | display image one Metal Cardbot characters |
@@ -60,8 +60,121 @@ consists of data such as
 | api/information/{id}/description1 | display description about one Metal Cardbot characters |
 | api/information/{id}/description2 | display description about one Metal Cardbot characters |
 | api/information/{id}/description3 | display description about one Metal Cardbot characters |
-| api/categories | display how many are there in that category
+| api/categories | display how many are there in that category |
 
+# ID Character Metal Cardbot API
+| ID Character | Category | Language | Explain |
+| :--- | :--- | :--- | :--- |
+| Anna-id | People | Indonesian | detailed information about Anna's character | 
+| Anna-en | People | English | detailed information about Anna's character |
+| Barnes-en | People | English | detailed information about Barnes's character |
+| Barnes-id | People | Indonesian | detailed information about Barnes's character |
+| Crest-id | People | Indonesian | detailed information about Crest's character |
+| Crest-en | People | English | detailed information about Crest's character |
+| Edo-en | People | English | detailed information about Edo's character |
+| Edo-id | People | Indonesian | detailed information about Edo's character |
+| Holden-en | People | English | detailed information about Holden's character |
+| Holden-id | People | Indonesian | detailed information about Holden's character |
+| Jack-en | People | English | detailed information about Jack's character |
+| Jack-id | People | Indonesian | detailed information about Jack's character |
+| Jim-Hopkins-en | People | English | detailed information about Jim's character |
+| Jim-Hopkins-id | People | Indonesian | detailed information about Jim's character |
+| Johan-en | People | English | detailed information about Johan's character |
+| Johan-id | People | Indonesian | detailed information about Johan's character |
+| Jun-Grant-en | People | English | detailed information about Jun's character |
+| Jun-Grant-id | People | Indonesian | detailed information about Jun's character |
+| Kent-en | People | English | detailed information about Kent's character |
+| Kent-id | People | Indonesian | detailed information about Kent's character |
+| Leia-Cayenne-en | People | English | detailed information about Leia's character |
+| Leia-Cayenne-id | People | Indonesian | detailed information about Leia's character |
+| Maruru-en | People | English | detailed information about Maruru's character |
+| Maruru-id | People | Indonesian | detailed information about Maruru's character |
+| Monah-en | People | English | detailed information about Monah's character |
+| Monah-id | People | Indonesian | detailed information about Monah's character |
+| Mukara-en | People | English | detailed information about Mukara's character |
+| Mukara-id | People | Indonesian | detailed information about Mukara's character |
+| Peruru-en | People | English | detailed information about Peruru's character |
+| Peruru-id | People | Indonesian | detailed information about Peruru's character |
+| Ravi-en | People | English | detailed information about Ravi's character |
+| Ravi-id | People | Indonesian | detailed information about Ravi's character |
+| Soleil-en | People | English | detailed information about Soleil's character |
+| Soleil-id | People | Indonesian | detailed information about Soleil's character |
+| Teo-en | People | English | detailed information about Teo's character |
+| Teo-id | People | Indonesian | detailed information about Teo's character |
+| Warren-Williams-en | People | English | detailed information about Warren's character |
+| Warren-Williams-id | People | Indonesian | detailed information about Warren's character |
+| Wella-en | People | English | detailed information about Wella's character |
+| Wella-id | People | Indonesian | detailed information about Wella's character |
+| Yuri-en | People | English | detailed information about Yuri's character |
+| Yuri-id | People | Indonesian | detailed information about Yuri's character |
+| Black-Hook-id | Robot | Indonesian | detailed information about Black Hook's character |
+| Black-Hook-en | Robot | English | detailed information about Black Hook's character |
+| Blaion-en | Robot | English | detailed information about Blaion's character |
+| Blaion-id | Robot | Indonesian | detailed information about Blaion's character |
+| Blastrain-en | Robot | English | detailed information about Blastrain's character |
+| Blastrain-id | Robot | Indonesian | detailed information Blastrain's the character |
+| Bloodwing-en | Robot | English | detailed information about Bloodwing's character |
+| Bloodwing-id | Robot | Indonesian | detailed information about Bloodwing's character |
+| Blue-Cop-en | Robot | English | detailed information about Blue Cop's character |
+| Blue-Cop-id | Robot | Indonesian | detailed information about Blue Cop's character |
+| Buffalo-Crush-en | Robot | English | detailed information about Buffalo Crush's character |
+| Buffalo-Crush-id | Robot | Indonesian | detailed information about Buffalo Crush's character |
+| Buster-Gallon-en | Robot | English | detailed information about Buster Gallon's character |
+| Buster-Gallon-id | Robot | Indonesian | detailed information about Buster Gallon's character |
+| Cielo-en | Robot | English | detailed information about Cielo's character |
+| Cielo-id | Robot | Indonesian | detailed information about Cielo's character |
+| Deep-Bite-en | Robot | English | detailed information about Deep Bite's character |
+| Deep-Bite-id | Robot | Indonesian | detailed information about Deep Bite's character |
+| Dexter-en | Robot | English | detailed information about Dexter's character |
+| Dexter-id | Robot | Indonesian | detailed information about Dexter's character |
+| Flame-Nova-en | Robot | English | detailed information about Flame Nova's character |
+| Flame-Nova-id | Robot | Indonesian | detailed information about Flame Nova's character |
+| Flash-Vector-en | Robot | English | detailed information about Flash Vector's character |
+| Flash-Vector-id | Robot | Indonesian | detailed information about Flash Vector's character |
+| Fleta-Z-en | Robot | English | detailed information about Fleta Z's character |
+| Fleta-Z-id | Robot | Indonesian | detailed information about Fleta Z's character |
+| Gigantrex-en | Robot | English | detailed information about Gigantrex's character |
+| Gigantrex-id | Robot | Indonesian | detailed information about Gigantrex's character |
+| Glober-en | Robot | English | detailed information about Glober's character |
+| Glober-id | Robot | Indonesian | detailed information about Glober's character |
+| Heavy-Iron-en | Robot | English | detailed information about Heavy Iron's character |
+| Heavy-Iron-id | Robot | Indonesian | detailed information about Heavy Iron's character |
+| Mega-Ambler-en | Robot | English | detailed information about Mega Ambler's character |
+| Mega-Ambler-id | Robot | Indonesian | detailed information about Mega Ambler's character |
+| Mega-Trucker-en | Robot | English | detailed information about Mega Trucker's character |
+| Mega-Trucker-id | Robot | Indonesian | detailed information about Mega Trucker's character |
+| Musclehyde-en | Robot | English | detailed information about Musclehyde's character |
+| Musclehyde-id | Robot | Indonesian | detailed information about Musclehyde's character |
+| Night-Griffon-en | Robot | English | detailed information about Night Griffon's character |
+| Night-Griffon-id | Robot | Indonesian | detailed information about Night Griffon's character |
+| Phantom-Hornet-en | Robot | English | detailed information about Phantom Hornet's character |
+| Phantom-Hornet-id | Robot | Indonesian | detailed information about Phantom Hornet's character |
+| Phoenix-Fire-en | Robot | English | detailed information about Phoenix Fire's character |
+| Phoenix-Fire-id | Robot | Indonesian | detailed information about Phoenix Fire's character |
+| Red-Blitz-en | Robot | English | detailed information about Red Blitz's character |
+| Red-Blitz-id | Robot | Indonesian | detailed information about Red Blitz's character |
+| Rock-Crush-en | Robot | English | detailed information about Rock Crush's character |
+| Rock-Crush-id | Robot | Indonesian | detailed information about Rock Crush's character |
+| Savannard-en | Robot | English | detailed information about Savannard's character |
+| Savannard-id | Robot | Indonesian | detailed information about Savannard's character |
+| Shadow-X-en | Robot | English | detailed information about Shadow X's character |
+| Shadow-X-id | Robot | Indonesian | detailed information about Shadow X's character |
+| Sky-Gallop-en | Robot | English | detailed information about Sky Gallop's character |
+| Sky-Gallop-id | Robot | Indonesian | detailed information about Sky Gallop's character |
+| Solidhorn-en | Robot | English | detailed information about Solidhorn's character |
+| Solidhorn-id | Robot | Indonesian | detailed information about Solidhorn's character |
+| Spark-Bit-en | Robot | English | detailed information about Spark Bit's character |
+| Spark-Bit-id | Robot | Indonesian | detailed information about Spark Bit's character |
+| Tachy-en | Robot | English | detailed information about Tachy's character |
+| Tachy-id | Robot | Indonesian | detailed information about Tachy's character |
+| Tachyon-en | Robot | English | detailed information about Tachyon's character |
+| Tachyon-id | Robot | Indonesian | detailed information about Tachyon's character |
+| Tigun-en | Robot | English | detailed information about Tigun's character |
+| Tigun-id | Robot | Indonesian | detailed information about Tigun's character |
+| Tyrant-Zero-en | Robot | English | detailed information about Tyrant Zero's character |
+| Tyrant-Zero-id | Robot | Indonesian | detailed information about Tyrant Zero's character |
+| Wild-Guardy-en | Robot | English | detailed information about Wild Guardy's character |
+| Wild-Guardy-id | Robot | Indonesian | detailed information about Wild Guardy's character |
 
 ***if you want recreate the my API configurate, (like add a variable data) You have to edit the InformationController file in*** 
 ``` 
