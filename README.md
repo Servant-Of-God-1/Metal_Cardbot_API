@@ -44,8 +44,8 @@ consists of data such as
 | Url_Video (String) |  video link (url youtube only) |
 | category (String) |  Language category |
 
-# Public API Call Types
-| API CALL | Function |
+# End Point Restful API Call Types
+| End Point Restful API Call | Function |
 | :--- | :--- |
 | api/information | display all Metal Cardbot character information |
 | api/information?language=id | display all Metal Cardbot character information in Indonesian |
